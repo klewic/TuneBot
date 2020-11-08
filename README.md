@@ -4,21 +4,21 @@ The TuneBot is a set of generative adversarial networks designed with the
 intention of randomly generating music in the form of midi files.
 
 This is a very involved project that I've been chipping away at for over a year
-now.  I've had to find a way to build a data set from scratch using an archive
-of midi files from Geocities websites (rip) on top of tweaking the design of the
+now.  From figuring out a way to build a data set from scratch using an archive
+of midi files from old Geocities websites to tweaking the design of the
 neural networks endlessly hoping for output that isn't a scrambled bunch of
 nonsense.
 
-I've only included a small portion of the data in the Generate_Data directory.
-However, the tools to convert the midi files to text are all present within that
-directory.  Feel free to make your own data set using your own midi collection.
+I only included a small portion of the data I used in the Generate_Data directory.
+However, the tools to convert any midi file to text are all present within that
+directory.  Feel free to make your own data set using your own midi collection 
+and see what happens.
 
-This project has gone through many iterations, and the scrambled nature of all
-of my code files shows it.  This project is also far from over.  At the moment,
-the TuneBot NoteGenerator seems to ignore the random input provided to it and
-outputs mostly the same song every time.  However, I've generated a variety of
+This project has gone through many iterations and will go through more when I find
+the time.  At the moment, the TuneBot NoteGenerator ignores the random input provided
+thus models tend to converge to a single song.  However, I've generated a variety of
 models that each produce a distinct, relatively nice sounding tune (I've
-included four of the generated songs in the root of the project - give 'em a
+included four of the generated songs in the root dir of this project - give 'em a
 listen!).  I have some ideas for improving upon the GAN's that will likely come
 with a rewrite of everything in Pytorch (Tensorflow just wasn't cutting it for
 an experimental project like this).
