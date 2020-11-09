@@ -18,12 +18,12 @@ This project has gone through many iterations and will go through more when I fi
 the time.  At the moment, the TuneBot NoteGenerator ignores the random input provided
 thus models tend to converge to a single song.  However, I've generated a variety of
 models that each produce a distinct, relatively nice sounding tune (I've
-included four of the generated songs in the root dir of this project - give 'em a
+included four of the generated songs in the root directory of this project - give 'em a
 listen!).  I have some ideas for improving upon the GAN's that will likely come
 with a rewrite of everything in Pytorch (Tensorflow just wasn't cutting it for
 an experimental project like this).
 
-To give a rough overview of the struction of this project:
+To give a rough overview of the structure of this project:
 The GAN's used to build the models for generating meter and notes can be found
 in the Generate_Meter and Generate_Notes directories.  You can play a tune via
 the PlayClip.py file in the root directory which calls upon MeterGenerator.py
